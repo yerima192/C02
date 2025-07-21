@@ -3,10 +3,13 @@
 int main()
 
 {
-    int a, b;
+    int a, b, c;
 
     scanf("%d %d", &a, &b);
-    printf("La somme est : %d\n ", a + b);
+
+    c = a + b;
+
+    printf("La somme est : %d\n", c);
+
     return 0;
 }
-
