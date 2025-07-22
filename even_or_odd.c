@@ -7,7 +7,7 @@ int main()
 
     scanf("%d", &modulo);
 
-    if (modulo % 2)
+    if (modulo % 2) 
         printf("%d est impair.\n", modulo);
 
     else
