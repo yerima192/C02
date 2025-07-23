@@ -2,15 +2,14 @@
 
 int main()
 {
-    int factoriel , i , n;
-    factoriel=1;
+    int a, b;
+    scanf("%d %d", &a, &b);
 
-    for (i =1; i <=n; i++)
-    {
-      factoriel= factoriel * i;
+    a = a + b;
+    b = a - b;
+    a = a - b;
+    
+     printf("Après échange: a = %d, b = %d\n", a, b);
 
-    printf("Le factorial de %d est: %d",n , factoriel);
-    }
-    return 0; 
+     return 0;
 }
-
